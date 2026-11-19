@@ -1,0 +1,79 @@
+{
+  "actual": {
+    "asset": "SYNTHETIC_SITE",
+    "end": "2026-11-10T00:00",
+    "energy_kwh": 80,
+    "source": "Synthetic demonstration; not site measurements",
+    "start": "2026-11-09T00:00",
+    "timezone": "America/Chicago",
+    "unit": "kWh"
+  },
+  "costs": [
+    {
+      "is_assumption": "true",
+      "parameter": "tariff",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative assumption not approved site data",
+      "unit": "USD/kWh",
+      "value": "0.10"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "inspection",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative assumption excludes labor",
+      "unit": "USD/action",
+      "value": "50"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "cleaning",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative assumption excludes labor",
+      "unit": "USD/action",
+      "value": "30"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "repair",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative assumption excludes labor",
+      "unit": "USD/action",
+      "value": "100"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "replacement",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative assumption excludes labor",
+      "unit": "USD/action",
+      "value": "250"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "labor",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative labor rate not student compensation",
+      "unit": "USD/hour",
+      "value": "25"
+    },
+    {
+      "is_assumption": "true",
+      "parameter": "downtime",
+      "scenario": "Fall synthetic demonstration",
+      "source": "Illustrative duration not a dollar cost",
+      "unit": "hours/action",
+      "value": "2"
+    }
+  ],
+  "expected": {
+    "asset": "SYNTHETIC_SITE",
+    "end": "2026-11-10T00:00",
+    "energy_kwh": 100,
+    "source": "Synthetic demonstration; not site measurements",
+    "start": "2026-11-09T00:00",
+    "timezone": "America/Chicago",
+    "unit": "kWh"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,4 @@
+asset,start,end,timezone,unit,source,energy_kwh
+SYNTHETIC_SITE,2026-10-28T00:00,2026-10-28T01:00,America/Chicago,kWh,Synthetic demonstration not site measurements,80
+SYNTHETIC_SITE,2026-10-28T01:00,2026-10-28T02:00,America/Chicago,kWh,Synthetic demonstration not site measurements,110
+SYNTHETIC_SITE,2026-10-28T02:00,2026-10-28T03:00,America/Chicago,kWh,Synthetic demonstration not site measurements,80

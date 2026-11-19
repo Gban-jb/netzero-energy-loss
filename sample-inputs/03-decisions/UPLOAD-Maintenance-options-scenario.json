@@ -1,0 +1,57 @@
+{
+  "asset": "SYNTHETIC_SITE",
+  "downtime_rate": {
+    "is_assumption": "true",
+    "source": "Illustrative affected-site production value during action; USD/hour",
+    "value": 2.0
+  },
+  "labor_rate": {
+    "is_assumption": "true",
+    "source": "Illustrative labor charge, not student compensation",
+    "value": 25.0
+  },
+  "options": [
+    {
+      "action": "inspect",
+      "direct_cost_usd": 50.0,
+      "downtime_hours": 0.0,
+      "is_assumption": "true",
+      "labor_hours": 1.0,
+      "source": "Synthetic demonstration; direct costs exclude labor and downtime"
+    },
+    {
+      "action": "clean",
+      "direct_cost_usd": 30.0,
+      "downtime_hours": 1.0,
+      "is_assumption": "true",
+      "labor_hours": 2.0,
+      "source": "Synthetic demonstration; direct costs exclude labor and downtime"
+    },
+    {
+      "action": "repair",
+      "direct_cost_usd": 100.0,
+      "downtime_hours": 2.0,
+      "is_assumption": "true",
+      "labor_hours": 3.0,
+      "source": "Synthetic demonstration; direct costs exclude labor and downtime"
+    },
+    {
+      "action": "replace",
+      "direct_cost_usd": 250.0,
+      "downtime_hours": null,
+      "is_assumption": "true",
+      "labor_hours": 4.0,
+      "source": "Synthetic demonstration; direct costs exclude labor and downtime"
+    },
+    {
+      "action": "wait",
+      "direct_cost_usd": 0.0,
+      "downtime_hours": 0.0,
+      "is_assumption": "true",
+      "labor_hours": 0.0,
+      "source": "Synthetic demonstration; direct costs exclude labor and downtime"
+    }
+  ],
+  "scenario": "Synthetic maintenance comparison",
+  "schema_version": 1
+}

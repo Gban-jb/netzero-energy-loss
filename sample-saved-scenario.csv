@@ -1,0 +1,8 @@
+scenario,parameter,value,unit,source,is_assumption
+Illustrative test only,tariff,0.10,USD/kWh,Illustrative assumption not approved site data,true
+Illustrative test only,inspection,50,USD/action,Illustrative assumption excludes labor,true
+Illustrative test only,cleaning,45,USD/action,Illustrative assumption excludes labor,true
+Illustrative test only,repair,100,USD/action,Illustrative assumption excludes labor,true
+Illustrative test only,replacement,250,USD/action,Illustrative assumption excludes labor,true
+Illustrative test only,labor,25,USD/hour,Illustrative labor rate not student compensation,true
+Illustrative test only,downtime,2,hours/action,Illustrative duration not a dollar cost,true
